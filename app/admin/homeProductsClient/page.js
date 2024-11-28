@@ -86,11 +86,12 @@ export default function HomeProductsClient() {
     // Redirigir a la vista del carrito con los datos
     const handleViewCart = () => {
         // Serializamos los datos del carrito y los pasamos en la query
-        const cartWithIds = cart.map(({ id, name, price, quantity }) => ({
+        const cartWithIds = cart.map(({ id, name, price, quantity,image }) => ({
             id,
             name,
             price,
             quantity,
+            image
         }));
 
         const queryParams = new URLSearchParams({ cart: JSON.stringify(cartWithIds) });
@@ -173,36 +174,30 @@ export default function HomeProductsClient() {
                                             variant="h6"
                                             className={styles.productName}
                                         >
-                                            Nombre: {product.name}
+                                            Product: {product.name}
                                         </Typography>
                                         <Typography
                                             variant="body2"
                                             color="text.secondary"
                                         >
-                                            Precio: ${product.price}
+                                            Price: ${product.price}
                                         </Typography>
                                         <Typography
                                             variant="body2"
                                             color="text.secondary"
                                         >
-                                            Descripción: {product.description}
+                                            Description: {product.description}
                                         </Typography>
                                         <Typography
                                             variant="body2"
                                             color="text.secondary"
                                         >
-                                            Categoría:{" "}
+                                            Category:{" "}
                                             {product.category?.name || "Sin categoría"}
                                         </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Button
-                                            size="small"
-                                            onClick={() => addToCart(product)}
-                                            className={styles.addToCartButton}
-                                        >
-                                            Add to Cart
-                                        </Button>
+                                      
                                         <Link
                                             href={{
                                                 pathname: "/userCartView",
@@ -227,9 +222,9 @@ export default function HomeProductsClient() {
                         <Typography
                             variant="h6"
                             align="center"
-                            sx={{ width: "100%", marginTop: "20px" }}
+                            sx={{ width: "100%", marginTop: "30px" }}
                         >
-                            No hay productos disponibles en esta categoría.
+                        Please log in to view the list of available products.
                         </Typography>
                     )}
                 </Grid>
