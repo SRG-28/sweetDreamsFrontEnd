@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+}
+
+.header {
+    margin-bottom: 16px;
+}
+
+.filterButtons {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.filterButton {
+    margin-right: 8px;
+    background-color: #05669D;
+    color: white;
+    border-radius: 20px;
+}
+
+.ordersGrid {
+    width: 100%;
+}
+
+.orderItem {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.orderName {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.detailsButton {
+    background-color: #05669D;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}

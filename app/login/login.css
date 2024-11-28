@@ -1,0 +1,75 @@
+/* login.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f9ee;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    color: #3e5a40;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #3e5a40;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .backButton {
+    background-color: #a1b57d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .loginButton {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .signUpButton {
+    background-color: #40916c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  

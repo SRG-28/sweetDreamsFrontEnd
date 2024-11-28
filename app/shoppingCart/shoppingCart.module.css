@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.title {
+    color: #05669D;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartTable {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.productColumn {
+    display: flex;
+    align-items: center;
+}
+
+.productImage {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+
+.buyNowButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.buyNowButton {
+    background-color: #05669D;
+    color: white;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #E3EDDF;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.footerTitle {
+    font-weight: bold;
+}
+
+.footerText {
+    margin: 4px 0;
+}
+
+.footerLogo {
+    width: 200px;
+    height: 90px;
+    margin: 0 auto;
+    display: block;
+}

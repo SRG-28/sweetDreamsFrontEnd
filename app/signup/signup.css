@@ -1,0 +1,130 @@
+/* Fondo general del contenedor */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f7eb;
+  margin-top: 18px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* O ajustar a 100% si prefieres que ocupe toda la altura */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contenedor del formulario */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 75px);
+  width: 100%;
+  max-width: 600px; 
+  background-color: #f5f9ee; 
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 200px;
+  margin-right: 30px; */
+}
+
+/* Títulos centrados */
+h1, h2 {
+  text-align: center;
+  color: #3e5a40;
+  margin-bottom: 20px;
+}
+
+/* Formulario centrado */
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  max-width: 400px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+margin-right: 20px;
+}
+
+/* Estilos de los labels */
+label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #3e5a40;
+  font-weight: bold;
+}
+
+/* Estilos de los campos de entrada */
+input {
+  width: calc(100% - 30px);
+  padding: 10px;
+  /* max-width: 350px; */
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #e8f5e9;
+}
+
+/* Contenedor de botones */
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 350px;
+  margin-top: 15px;
+}
+
+/* Estilos de los botones */
+.cancelButton, .signUpButton {
+  width: 48%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cancelButton {
+  background-color: #e63946; /* Rojo */
+}
+
+.signUpButton {
+  background-color: #2d6a4f; /* Verde */
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 20px; 
+  }
+
+  .buttonContainer {
+    flex-direction: column;
+  }
+
+  .cancelButton, .signUpButton {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

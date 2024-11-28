@@ -1,0 +1,73 @@
+/* request.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f9ee;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-family: 'Arial', sans-serif;
+    color: #3e5a40; /* Color verde para el título */
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    color: #3e5a40;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-family: 'Arial', sans-serif;
+    color: #3e5a40;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .textArea {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #e8f5e9; /* Fondo claro para el textarea */
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: 20px;
+  }
+  
+  .cancelButton {
+    background-color: #e63946; /* Rojo para Cancel */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .sendButton {
+    background-color: #2d6a4f; /* Verde oscuro para Send */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    opacity: 0.8; /* Efecto hover */
+  }
+  

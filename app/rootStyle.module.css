@@ -1,0 +1,22 @@
+.h1 {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.menuBarLinks {
+    color: blue;
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 10px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #262630;
+    color: white;
+    text-align: center;
+}

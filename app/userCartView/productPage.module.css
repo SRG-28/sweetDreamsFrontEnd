@@ -1,0 +1,143 @@
+/* Contenedor general */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+/* Sidebar - Menú lateral */
+.sidebar {
+    background-color: #E3EDDF;
+    padding: 16px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menuItem {
+    color: #05669D;
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    color: #04385D;
+}
+
+/* Productos - Botones de categorías */
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.productButton {
+    background-color: #05669D;
+    color: white;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Transición suave */
+}
+
+.productButton:hover {
+    background-color: #04385D;
+}
+
+/* Contenedor de la imagen del producto */
+.productImageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.productImage {
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Descripción del producto */
+.productDescription {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.descriptionTitle {
+    color: #05669D;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+/* Controles de producto (contador y botón) */
+.productControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.countText {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 12px;
+}
+
+.addToCartButton {
+    background-color: #05669D;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.addToCartButton:hover {
+    background-color: #04385D;
+}
+
+/* Footer */
+.footer {
+    background-color: #E3EDDF;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.footerTitle {
+    font-weight: bold;
+}
+
+.footerText {
+    margin: 4px 0;
+}
+
+.footerLogo {
+    width: 200px;
+    height: 90px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilo para botón de filtro activo */
+.activeButton {
+    background-color: #05669D;
+    color: white;
+}

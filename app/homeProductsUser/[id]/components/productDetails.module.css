@@ -1,0 +1,14 @@
+/* productDetails.module.css */
+.buttonsArea {
+    margin-top: 20px;
+}
+
+.editButton {
+    background-color: #ff7f50;
+    color: white;
+}
+
+.cancelButton {
+    background-color: #f0f0f0;
+    color: black;
+}

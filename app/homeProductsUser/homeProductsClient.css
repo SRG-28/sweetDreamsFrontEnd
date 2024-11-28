@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 16px 0;
+  }
+  
+  .title {
+    color: #05669D;
+    font-weight: bold;
+  }
+  
+  .filterButtons {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 16px 0;
+  }
+  
+  .filterButton {
+    margin-right: 8px;
+    background-color: #05669D;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .productGrid {
+    width: 100%;
+  }
+  
+  .productItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    height: 100%; 
+    text-align: center; 
+  }
+  
+  .productImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .productName {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .editButton {
+    background-color: #05669D;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto; 
+    display: block; 
+  }
+  
+.footer {
+    background-color: #E3EDDF;
+    padding: 16px;
+    width: 100%;
+    text-align: center; 
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.footerTitle {
+    font-weight: bold;
+}
+
+.footerText {
+    margin: 4px 0;
+}
+
+.footerLogo {
+    width: 200px;
+    height: 90px;
+    margin: 0 auto;
+    display: block;
+}

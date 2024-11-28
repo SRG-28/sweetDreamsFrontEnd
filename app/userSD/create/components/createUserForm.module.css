@@ -1,0 +1,11 @@
+.FormControl {
+    margin: 16px 0;
+}
+
+.buttonsArea {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+  
