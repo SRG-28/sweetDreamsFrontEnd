@@ -11,11 +11,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-##Login details:
-Option 1:
+Login details:
+```bash
+##Option 1:
 kyara.avalos@gmail.com
 Password: 12345
 
-Option 2:
+##Option 2:
 jose.berrios@gmail.com
 Password:12345
+
+```
